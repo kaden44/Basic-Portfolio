@@ -46,7 +46,6 @@ nav a {
     text-decoration: none; 
 }
 .profile {
-    padding-top: 150px;
     width: 960px;
     background: white;
     border: solid #dddddd 2px;
@@ -73,7 +72,7 @@ footer {
     border-top: solid #4aaaa5 7px;
     background-color: #666666;
     margin-top: 40px;
-    overflow: auto;
+    position: sticky;
 }
 footer p {
     color: white;
@@ -82,6 +81,7 @@ footer p {
     font-size: 10px;
     padding-top: 15px;
     margin-bottom:auto;
+
 }
 #name2 {
     float: left;
@@ -130,19 +130,26 @@ input[type=text], select, textarea {
     margin-bottom: 10px; 
     resize: vertical 
 }
-input[type=submit] {
-    background-color: #4aaaa5;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    cursor: pointer;
-}
-input[type=submit]:hover {
-    background-color: #777777;
-}
 .contact {
     border-radius: 5px;
     background-color: white;
     padding: 10px;
 }
+input[type=submit] {
+    margin-bottom: 10px;
+    text-decoration: none;
+    background-color: #4aaaa5;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+}
+input[type=submit]:hover {
+    background-color: #777777;
+}
+label {
+    color: #777777;
+}
+
 
