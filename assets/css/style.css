@@ -102,7 +102,6 @@ footer {
     position: sticky;
     width: 100%;
     overflow: auto;
-    
 }
 .footertext {
     color: white;
@@ -112,7 +111,6 @@ footer {
     padding-top: 20px;
     padding-bottom: 5px;
     margin-bottom:auto;
-
 }
 #name2 {
     float: left;
@@ -126,8 +124,7 @@ footer {
     font-weight: bold;
     font-size: 20px;
     line-height: 90px;
-    margin-left: 250px;
-    
+    margin-left: 250px;  
 }
 nav1 {
     margin-left: 300px;
@@ -286,4 +283,19 @@ label {
     margin-left: 85px;
     margin-top: 550px; 
     font-size: 95%; 
+}
+@media screen and (min-width: 100px) and (max-width: 199px)
+{
+    .button
+    {
+        width: 25px;
+    }
+}
+
+@media screen and (min-width: 200px) and (max-width: 299px)
+{
+    .button
+    {
+        width: 50px;
+    }
 }
