@@ -12,7 +12,6 @@ header {
     top: 0;
     margin: 0 0px 20px;
     border-bottom: solid #cccccc 2px;
-
 }
 .container {
     width: 100%;
@@ -31,10 +30,10 @@ header {
     font-weight: bold;
     font-size: 25px;
     line-height: 90px;
-    margin-left: 120px;
+    margin-left: 150px;
 }
 nav {
-    margin-left: 500px;
+    margin-left: 445px;
     position: absolute; 
     display: inline-block;
     white-space: nowrap;  
@@ -50,10 +49,10 @@ nav a {
 }
 .profile {
     height: auto;
-    width: 960px;
+    width: 896px;
     background: white;
     border: solid #dddddd 2px;
-    margin-left: 120px;
+    margin-left: 150px;
     margin-top: 40px;
     padding: 30px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -283,19 +282,4 @@ label {
     margin-left: 85px;
     margin-top: 550px; 
     font-size: 95%; 
-}
-@media screen and (min-width: 100px) and (max-width: 199px)
-{
-    .button
-    {
-        width: 25px;
-    }
-}
-
-@media screen and (min-width: 200px) and (max-width: 299px)
-{
-    .button
-    {
-        width: 50px;
-    }
 }
